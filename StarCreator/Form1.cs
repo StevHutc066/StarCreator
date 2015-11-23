@@ -41,7 +41,7 @@ namespace StarCreator
                 //initialization
                 int x = randNum.Next(0, (this.Width));
                 int y = randNum.Next(0, (this.Height));
-
+                int z;
                 //draw shapes
                 Graphics g = this.CreateGraphics();
                 SolidBrush blueBrush = new SolidBrush(Color.FromArgb(255, red, green, blue));
